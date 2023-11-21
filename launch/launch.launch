@@ -1,0 +1,8 @@
+<launch>
+    <!-- Launch a ROS node -->
+  <node name="talker_node2" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+  <node name="talker_node" pkg="turtlesim" type="turtle_teleop_key" output="screen"/>
+  <node name="listener_node" pkg="topic_subscriber_pkg" type="pos_listener" output="screen"/>
+
+  <!-- pose_topic_subscriber.cpp -->
+</launch>
